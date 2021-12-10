@@ -1,9 +1,17 @@
 ---
 title: "Presentation"
 format:
-  revealjs:
+  revealjs:  
     multiplex: true
     self-contained: true
+    hash-type: number
+    slide-number: true
+    controls: auto
+    from: markdown+emoji
+    theme: [custom.scss]
+    include-after-body: bla.html
+    menu:
+      width: full
 ---
 
 ## Quarto
